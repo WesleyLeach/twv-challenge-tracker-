@@ -2587,3 +2587,19 @@ JavaScript warning: https://cdn.trackjs.com/agent/v3/latest/t.js, line 4: Script
 b@https://cdn.trackjs.com/agent/v3/latest/t.js:4:442
 
 1747593297424	Marionette	INFO	Stopped listening on port 43803
+1747595162658	geckodriver	INFO	Listening on 127.0.0.1:56233
+1747595162666	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... te" "--remote-debugging-port" "45891" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileslXajx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1747595163300	Marionette	INFO	Marionette enabled
+1747595163422	Marionette	INFO	Listening on port 41743
+WebDriver BiDi listening on ws://127.0.0.1:45891
+Read port: 41743
+1747595163553	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://wealth-vibe.mn.co."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://wealth-vibe.mn.co."
+JavaScript warning: https://cdn.trackjs.com/agent/v3/latest/t.js, line 4: Script terminated by timeout at:
+b@https://cdn.trackjs.com/agent/v3/latest/t.js:4:442
+
+1747595200704	Marionette	INFO	Stopped listening on port 41743

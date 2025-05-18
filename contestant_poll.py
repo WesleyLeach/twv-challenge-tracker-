@@ -87,7 +87,7 @@ class ContestantAutomation(object):
         ).click()
         time.sleep(5)
         posts = self.driver.find_elements(By.CLASS_NAME,'feed-card')
-        pprint(posts)
+        pprint(posts[0].text)
 
 def main(args):
     '''
@@ -96,9 +96,9 @@ def main(args):
     '''
     logging.basicConfig(level=args.logging)
     #Instantiates (Creates) an object of type Invoice Collector
-    ContestantAutomation = ContestantAutomation()
-    ContestantAutomation._login()
-    ContestantAutomation._gather_posts()
+    automation_bot = ContestantAutomation()
+    automation_bot._login()
+    automation_bot._gather_posts()
     # Telling our new invoice collector object to run a function
     exit(0)
 
@@ -129,4 +129,3 @@ if __name__ == "__main__":
         datefmt='%H:%M:%S'
     )
     main(args)
-
